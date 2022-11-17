@@ -1,0 +1,704 @@
+﻿{
+  "id": "4180a90f-65c3-4bf0-9d33-1f6317deac26",
+  "name": "amazon",
+  "nodes": [],
+  "locators": [
+    {
+      "id": "56a999e2-3ec3-4af8-ac21-614a5bec15d0",
+      "name": "text_search",
+      "filePath": "aca5e483-6b13-466f-bcee-73d585a90c99.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "Amazon.com. Spend less. Smile more."
+              },
+              "url": {
+                "value": "https://www.amazon.com/",
+                "excluded": true
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "INPUT"
+                  },
+                  "id": {
+                    "value": "twotabsearchtextbox"
+                  },
+                  "class": {
+                    "value": "nav-input nav-progressive-attribute",
+                    "excluded": true
+                  },
+                  "type": {
+                    "value": "text",
+                    "excluded": true
+                  },
+                  "ancestorId": {
+                    "value": "nav-search-bar-form",
+                    "excluded": true
+                  },
+                  "ancestorName": {
+                    "value": "site-search",
+                    "excluded": true
+                  },
+                  "ancestorClass": {
+                    "value": "nav-search-field ",
+                    "excluded": true
+                  },
+                  "isLeaf": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "cssSelector": {
+                    "value": "body>div>header>div>div>div>div>form>div>div>input",
+                    "excluded": true
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tabIndex": {
+                    "value": "0",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "name": {
+                    "value": "field-keywords",
+                    "excluded": true
+                  },
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "autocomplete": {
+                    "isCustom": true,
+                    "value": "off",
+                    "operator": "equals",
+                    "excluded": true
+                  },
+                  "dir": {
+                    "isCustom": true,
+                    "value": "auto",
+                    "operator": "equals",
+                    "excluded": true
+                  },
+                  "aria-label": {
+                    "isCustom": true,
+                    "value": "Search",
+                    "operator": "equals",
+                    "excluded": true
+                  },
+                  "spellcheck": {
+                    "isCustom": true,
+                    "value": "false",
+                    "operator": "equals",
+                    "excluded": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "3766bc44-758f-4e6b-90ff-a593613cf9ca",
+      "name": "btn_search",
+      "filePath": "bae183e9-e703-4237-a7f8-484c81a58bf8.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "Amazon.com. Spend less. Smile more."
+              },
+              "url": {
+                "value": "https://www.amazon.com/",
+                "excluded": true
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "INPUT"
+                  },
+                  "id": {
+                    "value": "nav-search-submit-button"
+                  },
+                  "class": {
+                    "value": "nav-input nav-progressive-attribute",
+                    "excluded": true
+                  },
+                  "type": {
+                    "value": "submit",
+                    "excluded": true
+                  },
+                  "ancestorId": {
+                    "value": "nav-search-submit-text",
+                    "excluded": true
+                  },
+                  "ancestorName": {
+                    "value": "site-search",
+                    "excluded": true
+                  },
+                  "ancestorClass": {
+                    "value": "nav-search-submit-text nav-sprite nav-progressive-attribute",
+                    "excluded": true
+                  },
+                  "isLeaf": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "cssSelector": {
+                    "value": "body>div>header>div>div>div>div>form>div>div>span>input",
+                    "excluded": true
+                  },
+                  "sInfo": {
+                    "value": "Go",
+                    "excluded": true
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tabIndex": {
+                    "value": "0",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "value": {
+                    "isCustom": true,
+                    "value": "Go",
+                    "operator": "equals",
+                    "excluded": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "41cd0e3d-2e0b-44ac-bdbb-a8b44e9ae5f2",
+      "name": "div_container",
+      "filePath": "c53f958c-4c00-4bff-bf1d-d3eca1d7cb2f.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "Amazon.com : t-shirts for men",
+                "excluded": true
+              },
+              "url": {
+                "value": "https://www.amazon.com*",
+                "excluded": false
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "DIV"
+                  },
+                  "class": {
+                    "value": "s-main-slot s-result-list s-search-results sg-row",
+                    "excluded": false
+                  },
+                  "ancestorId": {
+                    "value": "search",
+                    "excluded": false
+                  },
+                  "ancestorClass": {
+                    "value": "rush-component s-latency-cf-section",
+                    "excluded": true
+                  },
+                  "isLeaf": {
+                    "value": "0",
+                    "excluded": true
+                  },
+                  "cssSelector": {
+                    "value": "body>div>div>div>div>div>span>div",
+                    "excluded": true
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  }
+                },
+                "childControls": [],
+                "excluded": false
+              }
+            ],
+            "excluded": false
+          }
+        ],
+        "parameters": {
+          "excluded": true,
+          "operator": "equals",
+          "value": ""
+        }
+      },
+      "metadata": {
+        "row": {
+          "exact": true,
+          "path": [
+            {
+              "tag": "div",
+              "cls": "sg-col-4-of-12 s-result-item s-asin sg-col-4-of-16 sg-col s-widget-spacing-small sg-col-4-of-20"
+            },
+            {
+              "tag": "div",
+              "index": 0,
+              "cls": "sg-col-inner"
+            },
+            {
+              "tag": "div"
+            },
+            {
+              "tag": "div",
+              "index": 0,
+              "cls": "s-card-container s-overflow-hidden aok-relative puis-expand-height puis-include-content-margin puis s-latency-cf-section s-card-border"
+            },
+            {
+              "tag": "div",
+              "index": 0,
+              "cls": "a-section a-spacing-base a-text-center"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "exact": true,
+            "columns": [
+              {
+                "name": "Brand",
+                "attr": "text"
+              }
+            ],
+            "path": [
+              {
+                "tag": "div",
+                "cls": "sg-col-4-of-12 s-result-item s-asin sg-col-4-of-16 sg-col s-widget-spacing-small sg-col-4-of-20"
+              },
+              {
+                "tag": "div",
+                "index": 0,
+                "cls": "sg-col-inner"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div",
+                "index": 0,
+                "cls": "s-card-container s-overflow-hidden aok-relative puis-expand-height puis-include-content-margin puis s-latency-cf-section s-card-border"
+              },
+              {
+                "tag": "div",
+                "index": 0,
+                "cls": "a-section a-spacing-base a-text-center"
+              },
+              {
+                "tag": "div",
+                "index": 0,
+                "cls": "a-section a-spacing-micro puis-padding-left-micro puis-padding-right-micro"
+              },
+              {
+                "tag": "div",
+                "index": 0,
+                "cls": "a-section a-spacing-none a-spacing-top-micro s-title-instructions-style"
+              },
+              {
+                "tag": "div",
+                "index": 0,
+                "cls": "a-row a-size-base a-color-secondary"
+              },
+              {
+                "tag": "h5",
+                "index": 0,
+                "cls": "s-line-clamp-1"
+              },
+              {
+                "tag": "span",
+                "index": 0,
+                "cls": "a-size-base-plus a-color-base"
+              }
+            ]
+          },
+          {
+            "exact": true,
+            "columns": [
+              {
+                "name": "Description",
+                "attr": "text"
+              }
+            ],
+            "path": [
+              {
+                "tag": "div",
+                "cls": "sg-col-4-of-12 s-result-item s-asin sg-col-4-of-16 sg-col s-widget-spacing-small sg-col-4-of-20"
+              },
+              {
+                "tag": "div",
+                "index": 0,
+                "cls": "sg-col-inner"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div",
+                "index": 0,
+                "cls": "s-card-container s-overflow-hidden aok-relative puis-expand-height puis-include-content-margin puis s-latency-cf-section s-card-border"
+              },
+              {
+                "tag": "div",
+                "index": 0,
+                "cls": "a-section a-spacing-base a-text-center"
+              },
+              {
+                "tag": "div",
+                "index": 0,
+                "cls": "a-section a-spacing-micro puis-padding-left-micro puis-padding-right-micro"
+              },
+              {
+                "tag": "div",
+                "index": 0,
+                "cls": "a-section a-spacing-none a-spacing-top-micro s-title-instructions-style"
+              },
+              {
+                "tag": "h2",
+                "index": 0,
+                "cls": "a-size-mini a-spacing-none a-color-base s-line-clamp-2"
+              },
+              {
+                "tag": "a",
+                "index": 0,
+                "cls": "a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal"
+              },
+              {
+                "tag": "span",
+                "index": 0,
+                "cls": "a-size-base-plus a-color-base a-text-normal"
+              }
+            ]
+          },
+          {
+            "exact": true,
+            "columns": [
+              {
+                "name": "Price",
+                "attr": "text"
+              }
+            ],
+            "path": [
+              {
+                "tag": "div",
+                "cls": "sg-col-4-of-12 s-result-item s-asin sg-col-4-of-16 sg-col s-widget-spacing-small sg-col-4-of-20"
+              },
+              {
+                "tag": "div",
+                "index": 0,
+                "cls": "sg-col-inner"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div",
+                "index": 0,
+                "cls": "s-card-container s-overflow-hidden aok-relative puis-expand-height puis-include-content-margin puis s-latency-cf-section s-card-border"
+              },
+              {
+                "tag": "div",
+                "index": 0,
+                "cls": "a-section a-spacing-base a-text-center"
+              },
+              {
+                "tag": "div",
+                "index": 0,
+                "cls": "a-section a-spacing-micro puis-padding-left-micro puis-padding-right-micro"
+              },
+              {
+                "tag": "div",
+                "index": 0,
+                "cls": "a-section a-spacing-none a-spacing-top-micro s-price-instructions-style"
+              },
+              {
+                "tag": "div",
+                "index": 0,
+                "cls": "a-row a-size-base a-color-base"
+              },
+              {
+                "tag": "a",
+                "index": 0,
+                "cls": "a-size-base a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal"
+              },
+              {
+                "tag": "span",
+                "index": 0,
+                "cls": "a-price"
+              },
+              {
+                "tag": "span",
+                "index": 1
+              },
+              {
+                "tag": "span",
+                "index": 0,
+                "cls": "a-price-whole"
+              }
+            ]
+          },
+          {
+            "exact": true,
+            "columns": [
+              {
+                "name": "Image",
+                "attr": "src"
+              }
+            ],
+            "path": [
+              {
+                "tag": "div",
+                "cls": "sg-col-4-of-12 s-result-item s-asin sg-col-4-of-16 sg-col s-widget-spacing-small sg-col-4-of-20"
+              },
+              {
+                "tag": "div",
+                "index": 0,
+                "cls": "sg-col-inner"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div",
+                "index": 0,
+                "cls": "s-card-container s-overflow-hidden aok-relative puis-expand-height puis-include-content-margin puis s-latency-cf-section s-card-border"
+              },
+              {
+                "tag": "div",
+                "index": 0,
+                "cls": "a-section a-spacing-base a-text-center"
+              },
+              {
+                "tag": "div",
+                "index": 0,
+                "cls": "s-product-image-container aok-relative s-image-overlay-grey s-text-center s-padding-left-small s-padding-right-small puis-spacing-micro s-height-equalized s-media-gallery s-media-gallery-treatment-T3 s-media-gallery-swap-loaded"
+              },
+              {
+                "tag": "div",
+                "index": 0,
+                "cls": "s-image-padding"
+              },
+              {
+                "tag": "span",
+                "index": 0,
+                "cls": "rush-component"
+              },
+              {
+                "tag": "a",
+                "index": 0,
+                "cls": "a-link-normal s-no-outline"
+              },
+              {
+                "tag": "div",
+                "index": 0,
+                "cls": "a-section aok-relative s-image-tall-aspect"
+              },
+              {
+                "tag": "div",
+                "index": 0,
+                "cls": "s-media-gallery-swap-card s-media-gallery-swap-primary-card"
+              },
+              {
+                "tag": "img",
+                "index": 0,
+                "cls": "s-image"
+              }
+            ]
+          }
+        ],
+        "type": "extract"
+      }
+    },
+    {
+      "id": "a6d8fa4a-6ebc-43b7-8276-6b3abfebb9bf",
+      "name": "next_page",
+      "filePath": "7f2e86a2-6ad0-48d2-83fb-32260985eaf6.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "Amazon.com : t-shirts for men",
+                "excluded": true
+              },
+              "url": {
+                "value": "https://www.amazon.com*",
+                "excluded": false
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "A"
+                  },
+                  "class": {
+                    "value": "s-pagination-item s-pagination-next s-pagination-button s-pagination-separator",
+                    "excluded": true
+                  },
+                  "ancestorId": {
+                    "value": "search"
+                  },
+                  "ancestorClass": {
+                    "value": "s-pagination-strip",
+                    "excluded": true
+                  },
+                  "isLeaf": {
+                    "value": "0",
+                    "excluded": true
+                  },
+                  "cssSelector": {
+                    "value": "body>div>div>div>div>div>span>div>div>div>div>span>a",
+                    "excluded": true
+                  },
+                  "sInfo": {
+                    "value": "Next"
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "href": {
+                    "value": "/s?k=t-shirts+for+men&page=2&qid=1668673061&ref=sr_pg_1",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "aria-label": {
+                    "isCustom": true,
+                    "value": "Go to next page, page 2",
+                    "operator": "equals",
+                    "excluded": true
+                  }
+                },
+                "childControls": [],
+                "excluded": false
+              }
+            ],
+            "excluded": false
+          }
+        ],
+        "parameters": {
+          "excluded": true,
+          "operator": "equals",
+          "value": ""
+        }
+      }
+    }
+  ]
+}
