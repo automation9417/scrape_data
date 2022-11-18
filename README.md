@@ -56,6 +56,6 @@ if __name__ == "__main__":
 ```
 
 ### Get the source code
-[mspaint-draw-img](https://github.com/automation9417/mspaint-draw-img)
+[scrape_data](https://github.com/automation9417/scrape_data)
 
 
